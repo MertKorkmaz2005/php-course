@@ -12,10 +12,21 @@
 
 
 		<article class="main-content col-xs-8">
-			<h2>Practice Section 1</h2>
+		
 
 
-		<?php  
+		<?php
+
+		$number1 = 10;
+		$number2 = 20;
+
+		echo $number1 + $number2 . "<br>";
+
+		$numbers = array(1,2,3,4,5,6);
+		$numbers_Asc = array("nmbr1" => 3, "". "nmbr2" => 6 );
+		echo $numbers[0] . "<br>";
+		echo $numbers_Asc['nmbr1'];
+
 
 
 		/* Step 1: Make 2 variables called number1 and number2 and set 1 to value 10 and the other 20:
@@ -23,10 +34,9 @@
 		  Step 2: Add the two variables and display the sum with echo:
 
 
+		  Step3: Make 2 Arrays with the same values, one regular and the other associative
 
-		  Step2: Make 2 Arrays with the same values, one regular and the other associative
-
-		  Step4: Make a constant and set it to the value of PHP.
+		  Step4: Make a constant and set it to the value of PHP. and use an echo to print it out
 
 
 			

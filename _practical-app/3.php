@@ -14,7 +14,52 @@
 
 <?php  
 
+if(3 < 2){
+	echo "i love";
+
+}elseif(10 > 20){
+	echo "i dont love php";
+
+}else{
+	echo "i love php";
+
+}
+
+
+
+
+for($counter = 0;  $counter <= 10; $counter++){
+	echo $counter . "<br>";
+	
+}
+
+$number = 17;
+
+switch($number){
+	case 44;
+	echo "it is 44";
+	break;
+	case 22;
+	echo "it is 22";
+	break;
+	case 15;
+	echo "it is 15";
+	break;
+	case 20;
+	echo "it is 20";
+	break;
+	case 17;
+	echo "it is 17";
+	break;
+
+	default:
+	echo "i could not find";
+	
+
+}
+
 /*  Step1: Make an if Statement with elseif and else to finally display string saying, I love PHP
+
 
 
 

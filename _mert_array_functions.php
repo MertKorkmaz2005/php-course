@@ -5,9 +5,10 @@
     <title>Document</title>
 </head>
 <body>
-<?php 
-    
-$list = array(1000,20,2,46,5,6,100,8,12,14,16);
+
+<?php
+
+$list = [333,33,3,33,3,33,3,3,3,33,3];
 
 echo max($list);
 
@@ -16,10 +17,13 @@ echo "<br>";
 echo min($list);
 
 echo "<br>";
+sort($list);
 
-sort($list); print_r($list)
+print_r($list);
 
-    
+
+
+
 ?>
 
 </body>

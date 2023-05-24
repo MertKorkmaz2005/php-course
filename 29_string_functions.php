@@ -6,9 +6,9 @@
 </head>
 <body>
 
-<?php 
+<?php
 
-$string = "Hello Student Do You Like the Class?";
+$string = "Hello student do you like the class";
 
 echo strlen($string);
 
@@ -19,7 +19,9 @@ echo strtoupper($string);
 echo "<br>";
 
 echo strtolower($string);
-    
+
+
+
     
 ?>
 

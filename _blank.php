@@ -6,11 +6,8 @@
 </head>
 <body>
 
-<?php 
-    
-echo time();    
-    
-    
+<?php
+
 ?>
 
 </body>

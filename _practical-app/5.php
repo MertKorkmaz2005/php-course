@@ -12,15 +12,34 @@
 <article class="main-content col-xs-8">
 
 	
-	<?php  
+	<?php 
 
-/*  Step1: Use a pre-built math function here to anything
+	
+	echo round(31.6);
+
+	echo "<br>";
+
+	$string = "mert is 17";
+	echo strtoupper($string);
+
+	echo "<br>";
+
+	$x = [2,3,3,4,5,6,78,8];
+
+	echo max($x);
 
 
-	Step 2:  Use a pre-built string function here to anything
 
 
-	Step 3:  Use a pre-built Array function here to anything
+/*  Step1: Use a pre-built math function here and echo it
+
+
+
+
+	Step 2:  Use a pre-built string function here and echo it
+
+
+	Step 3:  Use a pre-built Array function here and echo it
 
  */
 
