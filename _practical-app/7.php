@@ -1,5 +1,15 @@
 <?php include "functions.php" ?>
 <?php include "includes/header.php" ?>
+
+<?php
+
+$connection = mysqli_connect('localhost', 'root', '', 'section7');
+
+if(!$connection) {
+    die("Database conection failed");
+}
+
+?>
     
 
 	<section class="content">
@@ -14,9 +24,21 @@
 
 	<article class="main-content col-xs-8">
 	
+	<pre>
 	
-	
-	<?php  
+<?php  
+
+	$qeury = "SELECT * FROM mert";
+	$result = mysqli_query($connection, $qeury);
+	if(!$result ){
+		die('qeury failed'. mysqli_error($connection));
+
+	}
+
+	while( $row = mysqli_fetch_assoc($result)) {
+		print_r($row);
+	}
+
 
 	/*  Step 1 - Create a database in PHPmyadmin
 
@@ -29,6 +51,10 @@
 */
 	
 	?>
+
+</pre>
+
+
 
 
 
