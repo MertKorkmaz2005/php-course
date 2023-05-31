@@ -17,6 +17,18 @@
 	
 	<?php  
 
+	$text = "mert";
+
+	$hashFormat = "$2y$10$";
+
+	$salt = "iusesomecrazystrings22";
+
+	 $hash_salt = $hashFormat . $salt;
+
+	$text_encrypt = crypt($text,$hash_salt);
+
+	echo $text_encrypt
+
 	/*  Step 1 -Make a variable with some text as value
 
 		Step 2 - Use crypt() function to encrypt it
